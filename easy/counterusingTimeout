@@ -1,0 +1,10 @@
+var i=1;
+
+
+var count=setTimeout(counter,1000);
+
+function counter(){
+    i=i+1;
+}
+
+console.log(i);
